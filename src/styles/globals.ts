@@ -18,7 +18,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html, body, main {
-    background-color: black;
     height: 100vh;
   }
 `;
