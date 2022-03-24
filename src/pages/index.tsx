@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
+import { Input, FormControl, FormLabel } from "@chakra-ui/react";
 
 import styles from "../styles/Home.module.scss";
 
@@ -29,7 +30,8 @@ const Home: NextPage = () => {
 					</header>	
 
 					<div className={styles.loginSection}>
-						<p>Isso é um teste</p>
+						<button>Login</button>
+						<button>Criar conta</button>
 					</div>
 				</section>
 			</main>
