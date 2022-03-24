@@ -1,0 +1,18 @@
+.login {
+  border: 1px solid purple;
+
+  header {
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 5em;
+
+    h1 {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.loginSection {
+  color: purple;
+}
